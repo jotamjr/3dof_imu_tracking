@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+# WIP
+## What is this DIY
+This is my first attempt to build a 3DOF tracking device, I mostly use it on MILSIM games, but it can have other applications. I used a sparkfun LSM9DS1 sensor and a Teense 3.2 board.
 
-You can use the [editor on GitHub](https://github.com/jotamjr/3dof_imu_tracking/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Components
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- Sparkfun LSM9DS1
+- Teensy board (you can probably use a 2+ version)
+- Opentrack
 
-### Markdown
+## Wires
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jotamjr/3dof_imu_tracking/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+![diagram](https://github.com/jotamjr/3dof_imu_tracking/blob/master/wiki/diagram.png)
