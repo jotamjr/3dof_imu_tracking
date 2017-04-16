@@ -7,7 +7,7 @@ There are some devices out there that you can buy like [TrackIR](https://www.nat
 As you can see there are already a few options on the market to do this but if you have some free time and are DIY minded you can build your own tracking device, take for granted that it will be less precise that one of those solutions but it will do the job.
 
 ## Components
-Like any problem there are N-options to resolve this, I will go with an IMU board and an Arduino based board so it is time to go shopping ...
+Like with any problem there are N-options to resolve this, I will go with an IMU board and an Arduino based board so it is time to go shopping ...
 
 ### Sparkfun LSM9DS1
 Our first and most important component will be our IMU board (Inertial measurement unit), it will measure and report values from its different sensors (Magnetometer, Gyroscope, Accelerometer). This is a good time to point out that this devices are marketed as 9 degrees of freedom sensors but in reality they are measuring the same 3 axes, I do not have any particular reason to pick the [Sparkfun LSM9DS1](https://www.sparkfun.com/products/13944) over any other board out there I just buy stuff on Sparkfun, however props to these guys and gals since they provide a great library and documentation for the LSM9DS1 sensor.
