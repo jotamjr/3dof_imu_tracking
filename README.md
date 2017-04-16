@@ -44,7 +44,7 @@ LSM9DS1 imu;
 ```
 
 ### Debugging
-I added a directive called ON_SERIAL so if you want to debug your values at read time you can change it from **0** to **1** and monitor the console with the Arduino IDE
+I added a directive called ON_SERIAL so if you want to debug your values at read time you can change it from **0** to **1** and monitor the serial console with the Arduino IDE
 ```arduino
 // Enable debug on serial
 #define ON_SERIAL 0
@@ -67,7 +67,7 @@ Before uploading the compiled code to your teensy remember to set it as a usb Jo
 ## Gluing it all together
 We could have done all the work on our hardware but this would require more code and would be difficult to fine tune for different games, that is the reason why I prefered to use the joystick emulation approach and use [OpenTrack](https://github.com/opentrack/opentrack) as my frontend since it will allow me to tune my axes, dead zones, movement in game vs movement in real life. Also one of the advantages is that some games that support trackIR will support our setup straight out of the box.
 
-![See it working ](http://imgur.com/yvDKV2D)
+See a gif of how it works @ http://imgur.com/yvDKV2D
 
 ## Food for thought
 * Probably you can fit this into a small case + hot glue :)
