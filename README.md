@@ -59,7 +59,7 @@ Since the angle between magnetic north and true north varies depending on your c
 ```
 
 ### Fscale
-Fscale is a nice little piece of [code](http://playground.arduino.cc/Main/Fscale) that will allow us to transform our sensors data from degrees to numbers in the range [0-1024] why this number you may ask? Well, since we will be using the Joystick emulation from the Teensy board (more on that later) we need to transform those values in degrees (0 - 360 one full turn) since we cant use them straight into the Teensy Joystick axis values, according to the Teensy documentation this axis have a resolution of 32 bits, that means that they can accept any input from 0 to 1024 in our case fscale will match a **0** degrees with a value of **0** and **360 degrees** with a value of **1024**.
+Fscale is a nice little piece of [code](http://playground.arduino.cc/Main/Fscale) that will allow us to transform our sensors data from degrees to numbers in the range [0-1024] why this range you may ask? Well, since we will be using the Joystick emulation from the Teensy board (more on that later) we need to transform those values in degrees (0 - 360 one full turn) since we can not use them straight into the Teensy Joystick axis values, according to the Teensy documentation these axes have a resolution of 32 bits, that means that they can accept any input from 0 to 1024 in our case fscale will match a **0** degrees with a value of **0** and **360 degrees** with a value of **1024**.
 
 ### Joystick emulation with Teensy
 Before uploading the compiled code to your teensy remember to set it as a usb Joystick device, this will enable som things like the X and Y axes that we will be using.
